@@ -8,7 +8,6 @@ from datetime import datetime as dt
 import time
 
 
-time.sleep(60)
 url='http://pokemondb.net/pokedex/all'
 #Create a handle, page, to handle the contents of the website
 page = requests.get(url)
