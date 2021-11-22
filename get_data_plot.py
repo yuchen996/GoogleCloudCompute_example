@@ -3,6 +3,8 @@ import requests
 import lxml.html as lh
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 import seaborn as sns
 from datetime import datetime as dt
 import time
